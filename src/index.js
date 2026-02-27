@@ -1,8 +1,8 @@
 import "./styles.css";
 
-import { generateHome } from "../home";
-import { generateAbout } from "../about";
-import { generateMenu } from "../menu";
+import { generateHome } from "../src/home";
+import { generateAbout } from "../src/about";
+import { generateMenu } from "../src/menu";
 generateHome()
 
 addEventListener("click", (event) => {
